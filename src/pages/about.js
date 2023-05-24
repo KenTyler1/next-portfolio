@@ -19,7 +19,7 @@ const AnimatedNumber = ({ value }) => {
   useEffect(() => {
     if (isInView) {
       motionValue.set(value);
-    }
+    };
   }, [isInView, value, motionValue]);
 
   useEffect(() => {
