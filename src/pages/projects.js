@@ -6,11 +6,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/picture.png";
-import project2 from "../../public/images/projects/movie.PNG";
-import project3 from "../../public/images/projects/information.PNG";
-import project4 from "../../public/images/projects/opengl.PNG";
-import project5 from "../../public/images/projects/chatbot.PNG";
-import project6 from "../../public/images/projects/sales_manage.PNG";
+import project2 from "../../public/images/projects/movie.png";
+import project3 from "../../public/images/projects/information.png";
+import project4 from "../../public/images/projects/opengl.png";
+import project5 from "../../public/images/projects/chatbot.png";
+import project6 from "../../public/images/projects/sales_manage.png";
 
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
