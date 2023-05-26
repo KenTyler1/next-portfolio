@@ -4,11 +4,16 @@ import React, { useRef } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article2 from "../../public/images/articles/create loading screen in react js.jpg";
-import article3 from "../../public/images/articles/create modal component in react using react portals.png";
-import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
-import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
+import article1 from "../../public/images/learning/react-dev.png";
+import article2 from "../../public/images/learning/nextjs.png";
+import article3 from "../../public/images/learning/python-rasa-chatbot.png";
+import article4 from "../../public/images/learning/react-chatbot-kit.png";
+import article5 from "../../public/images/learning/php-language.png";
+import article6 from "../../public/images/learning/react-pagination.png";
+import article7 from "../../public/images/learning/outsystems.png";
+import article8 from "../../public/images/learning/tailwindcss.png";
+import article9 from "../../public/images/learning/animista.png";
+
 
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -63,7 +68,9 @@ const Article = ({ img, title, date, link }) => {
       viewport={{ once: true }}
     >
       <MovingImg title={title} img={img} link={link} />
-      <span className="text-primary font-semibold pl-4 dark:text-primaryDark sm:self-start sm:pl-0 xs:text-sm">{date}</span>
+      <span className="text-primary font-semibold pl-4 dark:text-primaryDark sm:self-start sm:pl-0 xs:text-sm">
+        {date}
+      </span>
     </motion.li>
   );
 };
@@ -93,11 +100,13 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
         </h2>
       </Link>
       <p className="text-sm mb-2">{summary}</p>
-      <span className="text-primary font-semibold dark:text-primaryDark">{time}</span>
+      <span className="text-primary font-semibold dark:text-primaryDark">
+        {time}
+      </span>
     </li>
   );
 };
-const articles = () => {
+const learnings = () => {
   return (
     <>
       <Head>
@@ -107,64 +116,71 @@ const articles = () => {
       <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">
-          <AnimatedText text="Words Can Change The World!" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
+          <AnimatedText
+            text="Words Can Change The World!"
+            className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
+          />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch. Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-              time="9 min read"
-              link="/"
+              title="Building Programs Using ReactJS and NextJS"
+              summary="Learn how to build programs that are 80% React and 20% Next. Next.js is a full-stack React framework. It’s versatile and lets you create React apps of any size—from a mostly static blog to a complex dynamic application. Follow this step-by-step guide to integrate React in your NextJS project."
+              time="Read many days"
+              link="https://react.dev/"
               img={article1}
             />
             <FeaturedArticle
-              title="Creating Stunning Loading Screens In React: Build 3 Types Of Loading Screens"
-              summary="Learn how to create stunning loading screens in React with 3 different methods. 
-              Discover how to use React-Loading, React-Lottie & build a custom loading screen. 
-              Improve the user experience."
-              time="10 min read"
-              link="/"
+              title="Building Programs Using NextJS: The React Framework for the Web"
+              summary="Used by some of the world's largest companies, Next.js enables you to create full-stack Web applications by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds."
+              time="Read many days"
+              link="https://nextjs.org/"
               img={article2}
             />
           </ul>
           <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
-            All Articles
+            All learning
           </h2>
           <ul>
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="March 22, 2023"
-              link="/"
+              title="Rasa chatbot: Building a program using Rasa chatbot."
+              date="January 1, 2023"
+              link="https://rasa.com/"
               img={article3}
             />
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="March 22, 2023"
-              link="/"
+              title="React-chatbot-kit framework: Building a tour website chatbot using Dialog Management Bot"
+              date="June 15, 2022"
+              link="https://fredrikoseberg.github.io/react-chatbot-kit-docs/"
               img={article4}
             />
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="March 22, 2023"
-              link="/"
+              title="PHP language: Building a website for sales management "
+              date="September 10, 2022"
+              link="https://www.w3schools.com/php/default.asp"
               img={article5}
             />
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="March 22, 2023"
-              link="/"
-              img={article3}
+              title="Material UI is a library of React UI components that implements Google's Material Design."
+              date="August 19, 2022"
+              link="https://mui.com/"
+              img={article6}
             />
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+              title="OutSystems (Low-code): Learning how to build website by outsystems program."
               date="March 22, 2023"
-              link="/"
-              img={article3}
+              link="https://www.outsystems.com/community/"
+              img={article7}
             />
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="March 22, 2023"
-              link="/"
-              img={article3}
+              title="Tailwind CSS: How to use taiwind framework in your project."
+              date="March 29, 2023"
+              link="https://tailwindcss.com/"
+              img={article8}
+            />
+            <Article
+              title="Animista: Learn CSS Programming. "
+              date="February 2, 2020"
+              link="https://animista.net/"
+              img={article9}
             />
           </ul>
         </Layout>
@@ -173,4 +189,4 @@ const articles = () => {
   );
 };
 
-export default articles;
+export default learnings;

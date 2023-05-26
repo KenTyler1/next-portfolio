@@ -4,10 +4,10 @@ import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
   TwitterIcon,
-  DribbbleIcon,
+  InstagramIcon,
   GithubIcon,
   LinkedInIcon,
-  PinterestIcon,
+  FacebookIcon,
   SunIcon,
   MoonIcon,
 } from "./Icons";
@@ -89,7 +89,7 @@ const NavBar = () => {
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="mx-4" />
           <CustomLink href="/projects" title="Projects" className="mx-4" />
-          <CustomLink href="/articles" title="Articles" className="ml-4" />
+          <CustomLink href="/learnings" title="Learnings" className="ml-4" />
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
@@ -120,22 +120,22 @@ const NavBar = () => {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
+            href="https://www.facebook.com/Tonykhanh.vn"
             target={"_blank"}
             className="w-6 mx-3 bg-light rounded-full"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
           >
-            <PinterestIcon />
+            <FacebookIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
+            href="https://www.instagram.com/tang.giakhanh/"
             target={"_blank"}
             className="w-6 ml-3"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
           >
-            <DribbbleIcon />
+            <InstagramIcon />
           </motion.a>
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -176,15 +176,15 @@ const NavBar = () => {
               toggle={handleClick}
             />
             <CustomMobileLink
-              href="/articles"
-              title="Articles"
+              href="/learnings"
+              title="Learnings"
               className=""
               toggle={handleClick}
             />
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="https://twitter.com"
+              href="https://twitter.com/KhnhTng22082292"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -193,7 +193,7 @@ const NavBar = () => {
               <TwitterIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://github.com/KenTyler1"
               target={"_blank"}
               className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
               whileHover={{ y: -2 }}
@@ -202,7 +202,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://www.linkedin.com/in/tang-gia-khanh-46679a17b"
               target={"_blank"}
               className="w-6 mx-3 sm:mx-1"
               whileHover={{ y: -2 }}
@@ -211,22 +211,22 @@ const NavBar = () => {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://www.facebook.com/Tonykhanh.vn"
               target={"_blank"}
               className="w-6 mx-3 bg-light rounded-full sm:mx-1"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
-              <PinterestIcon />
+              <FacebookIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://www.instagram.com/tang.giakhanh/"
               target={"_blank"}
               className="w-6 ml-3 sm:mx-1"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
-              <DribbbleIcon />
+              <InstagramIcon />
             </motion.a>
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
