@@ -13,7 +13,14 @@ import article6 from "../../public/images/learning/react-pagination.png";
 import article7 from "../../public/images/learning/outsystems.png";
 import article8 from "../../public/images/learning/tailwindcss.png";
 import article9 from "../../public/images/learning/animista.png";
-
+import article10 from "../../public/images/learning/create-loading-screen-in-reactjs.jpg";
+import article11 from "../../public/images/learning/create modal component in react using react portals.png";
+import article12 from "../../public/images/learning/form validation in reactjs using custom react hook.png";
+import article13 from "../../public/images/learning/What is Redux with easy explanation.png";
+import article14 from "../../public/images/learning/pagination component in reactjs.jpg";
+import article15 from "../../public/images/learning/smooth scrolling in reactjs.png";
+import article16 from "../../public/images/learning/todo list app built using react redux and framer motion.png";
+import article17 from "../../public/images/learning/What is higher order component in React.jpg";
 
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -137,7 +144,7 @@ const learnings = () => {
             />
           </ul>
           <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
-            All learning
+            All learnings
           </h2>
           <ul>
             <Article
@@ -181,6 +188,54 @@ const learnings = () => {
               date="February 2, 2020"
               link="https://animista.net/"
               img={article9}
+            />
+            <Article
+              title="React-loading: Learning how to build loading in ReactJS."
+              date="June 20, 2022"
+              link="https://www.npmjs.com/package/react-loading"
+              img={article10}
+            />
+            <Article
+              title="Redux: Learning how to use Redux in your project."
+              date="July 1, 2022"
+              link="https://www.youtube.com/watch?v=lOrV40oLUXA"
+              img={article11}
+            />
+            <Article
+              title="Form validation in reactjs using custom react hook"
+              date="June 5, 2022"
+              link="https://www.react-hook-form.com/"
+              img={article12}
+            />
+            <Article
+              title="Portals in React JS | Advanced React"
+              date="June 28, 2022"
+              link="https://redux.js.org/"
+              img={article13}
+            />
+            <Article
+              title="Pagination component in reactjs"
+              date="October 1, 2022"
+              link="https://www.youtube.com/watch?v=6DtBw3PaeHs&t=41s"
+              img={article14}
+            />
+            <Article
+              title="Smooth Scrolling in React with Smooth-scrollbar"
+              date="June 6, 2022"
+              link="https://www.youtube.com/watch?v=x5yvDlH7X9A"
+              img={article15}
+            />
+            <Article
+              title="Todo list app built using react redux and framer motion"
+              date="June 3, 2022"
+              link="https://www.youtube.com/watch?v=YhgSuUkWlK4"
+              img={article16}
+            />
+            <Article
+              title="What is higher order component in React"
+              date="June 7, 2022"
+              link="https://legacy.reactjs.org/docs/higher-order-components.html"
+              img={article17}
             />
           </ul>
         </Layout>

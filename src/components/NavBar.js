@@ -222,7 +222,7 @@ const NavBar = () => {
             <motion.a
               href="https://www.instagram.com/tang.giakhanh/"
               target={"_blank"}
-              className="w-6 ml-3 sm:mx-1"
+              className="w-6 ml-3 sm:mx-1 px-2"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
