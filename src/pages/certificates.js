@@ -121,14 +121,14 @@ const learnings = () => {
             <FeaturedArticle
               title="Developing Cloud Apps with Node.js and React"
               summary="This course will help you succeed as a  full-stack developer. It suits those in IT looking to step up in their careers or new graduates seeking to establish their server-side skills. This course suits those who need to manage cloud-centric projects."
-              time="1 week"
+              time="July 12, 2023"
               link="https://www.coursera.org/account/accomplishments/certificate/XB6NES5X4XLA"
               img={certificate1}
             />
             <FeaturedArticle
               title="Microsoft Azure Services and Lifecycles"
               summary="In this course, you will learn how Microsoft Azure can help you secure access to cloud resources, what it means to build a cloud governance strategy, and how Microsoft Azure adheres to common regulatory and compliance standards."
-              time="4 days"
+              time="July 19, 2023"
               link="https://www.coursera.org/account/accomplishments/certificate/28AGM7CFVJQT"
               img={certificate2}
             />
@@ -139,31 +139,31 @@ const learnings = () => {
           <ul>
             <Article
               title="Microsoft Azure Management Tools and Security Solutions"
-              date="July 15, 2023"
+              date="July 16, 2023"
               link="https://www.coursera.org/account/accomplishments/certificate/43WW48R7TRYH"
               img={certificate3}
             />
             <Article
               title="Learn how modern software developers collaborate across the world."
-              date="July 1, 2023"
+              date="July 8, 2023"
               link="https://www.coursera.org/account/accomplishments/certificate/ZPB32E6WTYE6"
               img={certificate4}
             />
             <Article
               title="Introduction to Microsoft Azure Cloud Services"
-              date="July 6, 2023"
+              date="July 13, 2023"
               link="https://www.coursera.org/account/accomplishments/certificate/7NWF7ZB6HLMB"
               img={certificate5}
             />
             <Article
               title="Introduction to Front-End Development"
-              date="July 10, 2023"
+              date="July 8, 2023"
               link="https://www.coursera.org/account/accomplishments/certificate/VZVFXLPYWJJ4"
               img={certificate6}
              />
             <Article
               title="Introduction to Front-End Development"
-              date="July 10, 2023"
+              date="July 8, 2023"
               link="https://www.coursera.org/account/accomplishments/certificate/VZVFXLPYWJJ4"
               img={certificate6}
              />
