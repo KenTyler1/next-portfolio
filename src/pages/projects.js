@@ -152,7 +152,7 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Develop an information safety and security program"
+                title="Information security program"
                 img={project3}
                 summary="The program is built using code systems in information security including Ceasar cipher system, Affine cipher system, etc. The program uses the Python Streamlit programming language to build the program."
                 link="https://github.com/KenTyler1/Information_security"

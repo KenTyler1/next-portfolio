@@ -5,10 +5,11 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import certificate1 from '../../public/images/certificates/Developing Cloud Apps with Node.js and React.png';
-import certificate2 from '../../public/images/certificates/Microsoft Azure Management Tools and Security Solutions.png';
-import certificate3 from '../../public/images/certificates/Version Control.png';
-import certificate4 from '../../public/images/certificates/Introduction to Microsoft Azure Cloud Services.png';
-import certificate5 from '../../public/images/certificates/Introduction to Front-End Development.png';
+import certificate2 from '../../public/images/certificates/Microsoft Azure Services and Lifecycles.png';
+import certificate3 from '../../public/images/certificates/Microsoft Azure Management Tools and Security Solutions.png';
+import certificate4 from '../../public/images/certificates/Version Control.png';
+import certificate5 from '../../public/images/certificates/Introduction to Microsoft Azure Cloud Services.png';
+import certificate6 from '../../public/images/certificates/Introduction to Front-End Development.png';
 
 
 import { motion, useMotionValue } from "framer-motion";
@@ -125,10 +126,10 @@ const learnings = () => {
               img={certificate1}
             />
             <FeaturedArticle
-              title="Microsoft Azure Management Tools and Security Solutions"
-              summary="This is the second course in a four-course program that prepares you to take the AZ-900 certification exam. This course teaches you the core concepts and skills that are assessed in the Microsoft Azure management tools, and security solutions exam domains."
+              title="Microsoft Azure Services and Lifecycles"
+              summary="In this course, you will learn how Microsoft Azure can help you secure access to cloud resources, what it means to build a cloud governance strategy, and how Microsoft Azure adheres to common regulatory and compliance standards."
               time="4 days"
-              link="https://www.coursera.org/account/accomplishments/certificate/43WW48R7TRYH"
+              link="https://www.coursera.org/account/accomplishments/certificate/28AGM7CFVJQT"
               img={certificate2}
             />
           </ul>
@@ -137,28 +138,34 @@ const learnings = () => {
           </h2>
           <ul>
             <Article
+              title="Microsoft Azure Management Tools and Security Solutions"
+              date="July 15, 2023"
+              link="https://www.coursera.org/account/accomplishments/certificate/43WW48R7TRYH"
+              img={certificate3}
+            />
+            <Article
               title="Learn how modern software developers collaborate across the world."
               date="July 1, 2023"
               link="https://www.coursera.org/account/accomplishments/certificate/ZPB32E6WTYE6"
-              img={certificate3}
+              img={certificate4}
             />
             <Article
               title="Introduction to Microsoft Azure Cloud Services"
               date="July 6, 2023"
               link="https://www.coursera.org/account/accomplishments/certificate/7NWF7ZB6HLMB"
-              img={certificate4}
+              img={certificate5}
             />
             <Article
               title="Introduction to Front-End Development"
               date="July 10, 2023"
               link="https://www.coursera.org/account/accomplishments/certificate/VZVFXLPYWJJ4"
-              img={certificate5}
+              img={certificate6}
              />
             <Article
               title="Introduction to Front-End Development"
               date="July 10, 2023"
               link="https://www.coursera.org/account/accomplishments/certificate/VZVFXLPYWJJ4"
-              img={certificate5}
+              img={certificate6}
              />
           </ul>
         </Layout>

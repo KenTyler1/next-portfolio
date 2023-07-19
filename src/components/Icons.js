@@ -63,7 +63,7 @@ export const FacebookIcon = ({ className, ...rest }) => (
     style={styles}
     xmlns="http://www.w3.org/2000/svg"
     fill="currentColor"
-    class="bi bi-facebook"
+    className="bi bi-facebook"
     viewBox="0 0 16 16"
   >
     <path
