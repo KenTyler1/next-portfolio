@@ -59,6 +59,25 @@ const Experience = () => {
             address="Ninh Kieu, Can Tho city"
             work="Worked on a team responsible for developing new features for Gripline Lixil project, including implementing a new user interface for a system settings panel, testing and optimizing the performance of a core system component."
           />
+          <Details
+            position="Angular Fresher"
+            companyLink="https://overate-vntech.com/"
+            company="OVERATE-VNTECH"
+            time="August 1 - October 29, 2023"
+            address="Go Vap, Ho Chi Minh City"
+            work="I worked with the company's Angular project and gained knowledge about services, interfaces, API 
+            calls to Java Back-end. Not only that, I also cut HTML, CSS, Responsive Design, etc"
+          />
+          <Details
+            position="Freelance Web Developer"
+            companyLink="mlhotel.vn"
+            company="MINH LOAN HOTEL"
+            time="November 15 - December 15, 2023"
+            address="Cho Moi, An Giang "
+            work="Build a website for Minh Loan hotel located in An Giang for customers using ReactJS, NodeJS, 
+            MongoDB framework. Rent a virtual server to upload the code and rent the domain name 
+            mlhotel.vn to point to the server."
+          />
         </ul>
       </div>
     </div>
